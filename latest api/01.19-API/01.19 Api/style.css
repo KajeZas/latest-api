@@ -1,0 +1,71 @@
+.nav{
+    margin: auto;
+    width: 70vw;
+    height: 8vh;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+}
+img{
+    height: 70%;
+    width: 100%;
+}
+.nyt{
+    width: 80vw;
+
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    border: solid 2px green;
+}
+.postas{
+    border: solid 2px green;
+    height: 45vh;
+    width: 24vw;
+    margin: 1%;
+    position: relative;
+    display: flex;
+}
+h6{
+    position:absolute;
+    width: auto;
+    height: auto;
+    background-color: red;
+    text-align: center;
+    font-size:xx-large;
+}
+h5{
+    position: absolute;
+    background-color: green;
+    height: 30%;
+    width: 100%;
+    bottom: 0;
+}
+p{
+    position: absolute;
+    background-color: yellow;
+    height: 15%;
+    width: 100%;
+    bottom: 0;
+}
+.read{
+    position: absolute;
+    bottom: 0;
+    background-color: purple;
+    height: 4%;
+    width: 100%;
+    font-size: medium;
+    margin-top: 50px;
+    
+}
